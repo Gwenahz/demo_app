@@ -3,5 +3,7 @@
 
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
+require 'rdoc'
+require 'rdoc/task'
 
 DemoApp::Application.load_tasks
